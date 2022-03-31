@@ -1,0 +1,25 @@
+#living{
+    .livimg{
+        justify-content: space-evenly;
+        padding: 10px;
+        .inner_liv{
+            flex-basis: 32%;
+            border: 1px solid #fff;
+            box-shadow: 0 0 10px #ddd;    
+            border-radius: 20px 20px 0 0 ;
+            padding-bottom: 25px;
+            img{
+                border-radius: 20px 20px 0 0;
+            }
+            h3 , h4 , p{
+                padding: 5px;
+            }
+
+            h4{
+                strong{
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+@media screen and (max-width:769px) and (min-width:200px) {
+    h2{
+        font-size: 35px;
+        br{
+            display: none;
+        }
+    }
+ h3{
+     font-size: 25px;
+ }
+ #header #topheader .info{
+    display: none; 
+    &:last-child{
+        display: block;
+        flex-basis: 100%;
+    }
+    
+}
+#nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: $primaryColor;
+    padding: 0;
+    ul{
+        text-align: center;
+        li{
+            margin: 0 1px;
+            &:last-child{
+                display: none;
+            }
+            a{
+                color: white;
+                padding: 5px;
+                i{
+                    display: block;
+                }
+                &:hover{
+                    background-color: black;
+                }
+                
+            }
+        }
+    }
+    
+    
+}
+#hero{
+    img{
+        height: 300px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        display: none;
+    }
+    a{
+        margin: 0;
+    }
+}
+#checkout{
+    margin-top: 20px;
+    .inner_checkout{
+        flex-direction: column;
+        
+        .child_checkout{
+            margin-bottom: 10px;
+            input[type=submit] {
+                margin-top: 0px;
+                padding: 15px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#aboutus{
+    .flexer{
+        flex-direction: column;
+    }
+    img{
+        margin: 0;
+        margin-bottom: 18px;
+    }
+    .inner_about{
+        margin-left: 12px;
+        .btn{
+            text-align: center;
+        }
+    }
+}
+#why{
+    .why{
+        flex-direction: column;
+        .inner_why{
+            margin: 10px 10px;
+        }
+    }
+}
+#living{
+    .livimg{
+        flex-direction: column;
+        .inner_liv{
+            margin: 5px 2px;
+            img {
+              width: 100%;
+          }
+        }
+    }
+}
+#contact{
+    iframe{
+        height: 200px;
+    }
+    .outer_contact{
+        position: relative;
+        margin: 0;
+        
+    }
+}
+#footer {
+   background-color:#ddd;
+    padding-bottom: 58px;
+    text-align: center;
+    .inner_footer{
+        flex-direction: column;
+        P{margin: 0;}
+    }
+}
+#mainheader .logo {
+    flex-basis: 100%;
+    img{
+        margin: 0 auto;
+    }
+}
+}
